@@ -5,10 +5,10 @@ using namespace std;
 int main(){
     int age;
     cin >> age;
-    if (age>=18){
+    if (age>=18) {
         cout << "you are adult";
     }
-    else{
+    else if(age<18){
         cout << "not adult";
     }
     return 0;
