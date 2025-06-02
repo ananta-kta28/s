@@ -2,3 +2,12 @@
 /.vscode
 /cpp
 /cpp.cpp
+# Ignore compiled C++ files
+*.out
+*.o
+*.exe
+
+# Ignore custom files
+learn
+learn.cpp
+bits/
